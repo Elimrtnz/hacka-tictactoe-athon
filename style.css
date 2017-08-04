@@ -1,0 +1,38 @@
+#game-board{
+    width: 50vw;
+    height: 75vh;
+    border: 2px solid black;
+}
+
+.row{
+    width: 100%;
+    height: 31%;
+    border: 1px solid red;
+    margin-bottom: 1%;
+}
+
+.space{
+    width: 32%;
+    height: 95%;
+    border: 1px solid green;
+    display: inline-block;
+}
+
+.empty{
+    background-color: black;
+}
+.ex{
+    background-image: url('http://www.naijaloaded.com.ng/wp-content/uploads/2016/07/red-sign-icon-mark-symbol-cross-marks-orange.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+}
+
+.oh{
+    background-image: url('http://cdn3.volusion.com/joqnj.zjnrj/v/vspfiles/photos/REX00LW2O-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: black;
+}
